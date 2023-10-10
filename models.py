@@ -31,6 +31,7 @@ class student (User):
 
     def __repr__(self):
             return f"student(name='{self.name}',email='{self.name}',id='{self.id}',score='{self.score}')"
+        
 
     def __str__(self):
             return "student:"+str(self.id)+","+self.email
